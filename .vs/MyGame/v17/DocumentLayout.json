@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LastHero\\MyGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|c:\\users\\lasthero\\mygame\\assets\\scripts\\helpcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\helpcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|C:\\Users\\LastHero\\MyGame\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|C:\\Users\\LastHero\\MyGame\\assets\\scripts\\crouchcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crouchcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|C:\\Users\\LastHero\\MyGame\\assets\\scripts\\speedcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\speedcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|C:\\Users\\LastHero\\MyGame\\assets\\scripts\\standonfakecube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\standonfakecube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|C:\\Users\\LastHero\\MyGame\\assets\\scripts\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HelpCollision.cs",
+              "DocumentMoniker": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\HelpCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HelpCollision.cs",
+              "ToolTip": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\HelpCollision.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HelpCollision.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T07:36:06.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CrouchCollision.cs",
+              "DocumentMoniker": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\CrouchCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CrouchCollision.cs",
+              "ToolTip": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\CrouchCollision.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CrouchCollision.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T07:31:01.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SpeedCollision.cs",
+              "DocumentMoniker": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\SpeedCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpeedCollision.cs",
+              "ToolTip": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\SpeedCollision.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpeedCollision.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T04:55:41.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Music.cs",
+              "DocumentMoniker": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\Music.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Music.cs",
+              "ToolTip": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\Music.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Music.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T04:17:49.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StandOnFakeCube.cs",
+              "DocumentMoniker": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\StandOnFakeCube.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StandOnFakeCube.cs",
+              "ToolTip": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\StandOnFakeCube.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StandOnFakeCube.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T17:29:02.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAowKwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T12:00:17.206Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 109,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
