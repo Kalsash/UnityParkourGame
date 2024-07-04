@@ -18,6 +18,11 @@ public class PlayerMovement : MonoBehaviour
     private float gravity = 10f;
     [SerializeField]
     private float lookSpeed = 2f;
+    public float LookSpeed
+    {
+        get { return lookSpeed; }
+        set { lookSpeed = value; }
+    }
     [SerializeField]
     private float lookXLimit = 45f;
     [SerializeField]
@@ -34,28 +39,16 @@ public class PlayerMovement : MonoBehaviour
     private bool canMove = true;
     private bool canRun = false;
     private bool canCrouch = false;
+    private bool GoToSpawn = false;
 
 
     private KeyCode runButton = KeyCode.LeftShift;
     private KeyCode crouchButton = KeyCode.LeftControl;
 
-    private Vector3 startPosition = new Vector3(0,0,0);
-
     void Start()
     {
         characterController = GetComponent<CharacterController>();
-
-        // transform.position = new Vector3(0, 0, 40);
-        //if (transform.position.z >= 35)
-        //{
-        //    transform.position = new Vector3(0, 0, 40);
-        //    if (transform.position.z >= 70)
-        //    {
-        //        transform.position = new Vector3(0, 0, 75);
-        //    }
-        //}
-        //transform.position = new Vector3(0, 0, 75);
-        startPosition = transform.position; 
+        //transform.position = new Vector3(0, 0, 118);
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -63,7 +56,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-       
+        if (transform.position.z == 1)
+        {
+            Spawn();
+        }
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
 
@@ -102,13 +98,29 @@ public class PlayerMovement : MonoBehaviour
         }
 
         characterController.Move(moveDirection * Time.deltaTime);
+        // Проверяем, если была нажата клавиша для завершения игры (например, клавиша Escape)
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            QuitGame();
+        }
+        Winning();
 
         if (canMove)
         {
-            rotationX += -Input.GetAxis("Mouse Y") * lookSpeed;
-            rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
-            playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
-            transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
+            if (GoToSpawn)
+            {
+                transform.position = new Vector3(0, 0, 1);
+
+
+            }
+            else
+            {
+                rotationX += -Input.GetAxis("Mouse Y") * lookSpeed;
+                rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
+                playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
+                transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
+            }
+
         }
 
         if (characterController.isGrounded)
@@ -116,6 +128,7 @@ public class PlayerMovement : MonoBehaviour
             // Если персонаж стоит на земле, обнуляем вертикальную скорость
             moveDirection.y = 0;
         }
+
         else
         {
             // Если персонаж в воздухе, увеличиваем вертикальную скорость вниз
@@ -136,18 +149,27 @@ public class PlayerMovement : MonoBehaviour
                         transform.position = new Vector3(0, 0, 40);
                     }
                 }
-                else 
+
+                else
                 {
-                    //transform.position = new Vector3(0, 0, 75);
-                    //startPosition = new Vector3(0, 0, 0);
-                    // Если персонаж ниже уровня земли, перемещаем его в начальную точку
                     transform.position = new Vector3(0, 0, 0);
                 }
                 moveDirection.y = 0;
-
-
-
             }
+
+        }
+    }
+    public async Task Spawn()
+    {
+        await Task.Delay(10);
+        GoToSpawn = false;
+    }   
+    public void Winning()
+    {
+        if (transform.position.z >= 121)
+        {
+            Debug.Log("WIN");
+            QuitGame();
         }
     }
     public void AddSpeedAbility(Collider player)
@@ -172,5 +194,17 @@ public class PlayerMovement : MonoBehaviour
             await Task.Delay(3000);
             canMove = true;
         }
+    }
+   public void GotoSpawn()
+    {
+        GoToSpawn = true;
+    }
+    public void QuitGame()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
     }
 }

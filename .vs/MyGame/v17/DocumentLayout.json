@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\LastHero\\MyGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|c:\\users\\lasthero\\mygame\\assets\\scripts\\helpcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\helpcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|c:\\users\\lasthero\\mygame\\assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|C:\\Users\\LastHero\\MyGame\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|C:\\Users\\LastHero\\MyGame\\assets\\scripts\\rightcaketrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rightcaketrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|C:\\Users\\LastHero\\MyGame\\assets\\scripts\\helpcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\helpcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|C:\\Users\\LastHero\\MyGame\\assets\\scripts\\leftcaketrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leftcaketrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|C:\\Users\\LastHero\\MyGame\\assets\\scripts\\standonfakecube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\standonfakecube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|C:\\Users\\LastHero\\MyGame\\assets\\scripts\\crouchcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|C:\\Users\\LastHero\\MyGame\\assets\\scripts\\speedcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\speedcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|C:\\Users\\LastHero\\MyGame\\assets\\scripts\\standonfakecube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\standonfakecube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|C:\\Users\\LastHero\\MyGame\\assets\\scripts\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,31 +59,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HelpCollision.cs",
-              "DocumentMoniker": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\HelpCollision.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HelpCollision.cs",
-              "ToolTip": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\HelpCollision.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HelpCollision.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBIAAAArAAAA",
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuManager.cs",
+              "ToolTip": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAD4vxAAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T07:36:06.875Z",
+              "WhenOpened": "2024-07-04T13:34:20.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "RightCakeTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\RightCakeTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RightCakeTrigger.cs",
+              "ToolTip": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\RightCakeTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RightCakeTrigger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T12:08:39.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LeftCakeTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\LeftCakeTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LeftCakeTrigger.cs",
+              "ToolTip": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\LeftCakeTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LeftCakeTrigger.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T11:06:41.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HelpCollision.cs",
+              "DocumentMoniker": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\HelpCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HelpCollision.cs",
+              "ToolTip": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\HelpCollision.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HelpCollision.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T07:36:06.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CrouchCollision.cs",
               "DocumentMoniker": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\CrouchCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CrouchCollision.cs",
               "ToolTip": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\CrouchCollision.cs",
               "RelativeToolTip": "Assets\\Scripts\\CrouchCollision.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAcAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-04T07:31:01.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "SpeedCollision.cs",
               "DocumentMoniker": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\SpeedCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpeedCollision.cs",
@@ -83,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Music.cs",
               "DocumentMoniker": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\Music.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Music.cs",
@@ -95,13 +143,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "StandOnFakeCube.cs",
               "DocumentMoniker": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\StandOnFakeCube.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StandOnFakeCube.cs",
               "ToolTip": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\StandOnFakeCube.cs",
               "RelativeToolTip": "Assets\\Scripts\\StandOnFakeCube.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA+AAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwA0AAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T17:29:02.647Z"
             },
@@ -113,7 +161,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\LastHero\\MyGame\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AQIAAKMAAAAAAAAAAAAowKwAAAAaAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T12:00:17.206Z"
             }
